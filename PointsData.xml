@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<F1ScoringSchemes version="1.0" xmlns="https://example.org/f1/scoring">
+  <Scheme id="1950-1959" name="1950s" type="race_points">
+    <Era startYear="1950" endYear="1959"/>
+    <Notes>Standard World Championship points for 1950-1959. Fastest lap point is separate.</Notes>
+
+    <PointsTable>
+      <Place position="1" points="8"/>
+      <Place position="2" points="6"/>
+      <Place position="3" points="4"/>
+      <Place position="4" points="3"/>
+      <Place position="5" points="2"/>
+    </PointsTable>
+
+    <Bonuses>
+      <Bonus id="fastest_lap" name="Fastest Lap" points="1" eligibility="race"/>
+    </Bonuses>
+  </Scheme>
+
+
+ <Scheme id="1960-1961" name="1960-61" type="race_points">
+    <Era startYear="1960" endYear="1961"/>
+    <Notes>Standard World Championship points for 1950-1959. does not include shared for 61.</Notes>
+
+    <PointsTable>
+      <Place position="1" points="8"/>
+      <Place position="2" points="6"/>
+      <Place position="3" points="4"/>
+      <Place position="4" points="3"/>
+      <Place position="5" points="2"/>
+      <Place position="6" points="1"/>
+    </PointsTable>
+
+    <Bonuses>
+      <Bonus id="fastest_lap" name="Fastest Lap" points="0" eligibility="race"/>
+    </Bonuses>
+  </Scheme>
+
+ <Scheme id="1991-2002" name="1991-02" type="race_points">
+    <Era startYear="1960" endYear="1961"/>
+    <Notes>Standard World Championship points for 1991 - 2002.</Notes>
+
+    <PointsTable>
+      <Place position="1" points="10"/>
+      <Place position="2" points="6"/>
+      <Place position="3" points="4"/>
+      <Place position="4" points="3"/>
+      <Place position="5" points="2"/>
+      <Place position="6" points="1"/>
+    </PointsTable>
+
+    <Bonuses>
+      <Bonus id="fastest_lap" name="Fastest Lap" points="0" eligibility="race"/>
+    </Bonuses>
+  </Scheme>
+
+  <Scheme id="2003-2009" name="2003-09" type="race_points">
+    <Era startYear="2003" endYear="2009"/>
+
+    <PointsTable>
+      <Place position="1" points="10"/>
+      <Place position="2" points="8"/>
+      <Place position="3" points="6"/>
+      <Place position="4" points="5"/>
+      <Place position="5" points="4"/>
+      <Place position="6" points="3"/>
+      <Place position="7" points="2"/>
+      <Place position="8" points="1"/>
+    </PointsTable>
+  </Scheme>
+
+  <Scheme id="2010-2025" name="2010-25" type="race_points">
+    <Era startYear="2010" endYear="2025"/>
+
+    <PointsTable>
+      <Place position="1" points="25"/>
+      <Place position="2" points="18"/>
+      <Place position="3" points="15"/>
+      <Place position="4" points="12"/>
+      <Place position="5" points="10"/>
+      <Place position="6" points="8"/>
+      <Place position="7" points="6"/>
+      <Place position="8" points="4"/>
+      <Place position="9" points="2"/>
+      <Place position="10" points="1"/>
+    </PointsTable>
+  </Scheme>
+</F1ScoringSchemes>
